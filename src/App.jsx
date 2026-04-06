@@ -37,10 +37,17 @@ function App() {
         <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
           O Billie lê seu PDF, traduz nomes confusos e envia tudo categorizado direto para o Notion. 100% local, 100% no seu controle.
         </p>
-        <a href="https://github.com/eduardoteranisi/billie-project/releases/latest/download/Billie-Project_v1.0.zip" 
-           className="inline-block bg-teal-500 hover:bg-teal-400 text-gray-950 font-bold text-xl px-12 py-5 rounded-2xl shadow-[0_0_20px_rgba(45,212,191,0.5)] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(45,212,191,0.7)]">
-          ⬇️ Baixar Grátis (Windows)
-        </a>
+        
+	<div className="flex justify-center gap-4">
+		<a href="https://github.com/eduardoteranisi/billie-project/releases/latest/download/Billie-Project-Ubuntu_v1.0.zip" 
+           	className="inline-block bg-teal-500 hover:bg-teal-400 text-gray-950 font-bold text-xl px-12 py-5 rounded-2xl shadow-[0_0_20px_rgba(45,212,191,0.5)] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(45,212,191,0.7)]">
+          	Baixar Grátis - Ubuntu
+        	</a>
+		<a href="https://github.com/eduardoteranisi/billie-project/releases/latest/download/Billie-Project-Windows_v1.0.zip" 
+           	className="inline-block bg-teal-500 hover:bg-teal-400 text-gray-950 font-bold text-xl px-12 py-5 rounded-2xl shadow-[0_0_20px_rgba(45,212,191,0.5)] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(45,212,191,0.7)]">
+          	Baixar Grátis - Windows
+        	</a>
+	</div>
         <p className="mt-6 text-sm text-gray-600">Software seguro, de código aberto e sem mensalidades.</p>
       </section>
 
